@@ -12,32 +12,6 @@ import { routesString } from './pages/routes_string';
 
 function App() {
   return (
-    // <Router>
-    //   <div>
-    //     <ul>
-    //       <li>
-    //         <Link to="/">Home</Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/about">About</Link>
-    //       </li>
-    //     </ul>
-
-    //     <hr />
-
-    //     <Switch>
-    //       <Route exact path="/">
-    //         <Home />
-    //       </Route>
-    //       <Route path="/about">
-    //         <About />
-    //       </Route>
-    //       <Route path="*">
-    //         <PageNotFound />
-    //       </Route>
-    //     </Switch>
-    //   </div>
-    // </Router>
     <ProvideAuth>
       <Router>
         <div>
